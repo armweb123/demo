@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/">Home page</a> | Add Companies Page | <a href="/companies">Company page</a><br>
+<form action="/companies/add" method="post">
+<input type="text" name="name" placeholder="name">
+<input type="text" name="size" placeholder="size">
+<input type="text" name="address" placeholder="address">
+    <input type="submit" value="Add">
+</form>
+</body>
+</html>
